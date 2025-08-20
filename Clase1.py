@@ -73,12 +73,13 @@ print("")
 #15. Crea una variable que contenga tu nombre completamente en mayúsculas. Después transfórmalo todo en minúsculas con algún método o función de Python.
 nombre_mayus = "JUAN"
 print("Nombre en mayúsculas:",nombre_mayus)
-nombre_cambiado = nombre_mayus.lower
+nombre_cambiado = nombre_mayus.lower()
 print("Nombre en minúsculas:",nombre_cambiado)
 print("")
 
 #16. Por último, con la variable con el nombre en mayúsculas, aplica un método parecido para que se transforme todo en minúsculas excepto la primera letra.
 nombre_minus = "juan"
-nombre_cambiado = nombre_minus.upper
+nombre_cambiado = nombre_minus.upper()
 print("Nombre en minúsculas:",nombre_minus)
+
 print("Nombre en mayúsculas:",nombre_cambiado)
